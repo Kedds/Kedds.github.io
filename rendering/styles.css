@@ -1,0 +1,45 @@
+
+body {
+    background-color: rgb(37, 36, 41);
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+ }
+
+ .entry{
+    padding-top: 10px;
+    padding-bottom:40px;
+ }
+
+#playGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    align-content: stretch;
+    width: 85%;
+    height: 30vw;
+}
+    #playGrid div {
+    background: rgba(0,0,0,0);
+    color: white;
+}
+
+#tallguy {
+    width: 52%;
+}
+
+/* Style links */
+a:link {
+    color:rgb(150, 188, 238);
+    /* If you want to remove underline on link, uncomment following
+    text-decoration: none; */
+ }
+ a:visited {
+    color: rgb(131, 113, 158);
+ 
+ }
+ a:hover {
+    color: rgb(203, 229, 236);
+ }
+ 

@@ -1,0 +1,263 @@
+/* prowe */
+
+/* nav bar styling */
+/* Prevent content from overlapping nav bar */
+#nav {
+   z-index: 500;
+}
+
+/* Styling of nav bar list */
+#nav ul {
+   display: inline;  
+   list-style-type: none;
+   margin: 0px;
+   padding: 10px;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgb(89, 66, 138);
+}
+
+/* Orient list horizontal, not vertical */
+#nav ul li {
+   display: inline-block;
+   padding: 10px;
+   list-style-type: none;
+}
+
+/* Link colors in nav bar */
+#nav li>a {
+   color:whitesmoke;
+}
+
+/* Remove underlines in the links in the nav bar */
+#nav li a:link,
+#nav li a:visited,
+#nav li a:hover,
+#nav li a:active
+{
+   text-decoration: none;
+}
+
+#title {
+   width: 300px;
+   /* background-color: rgba(167, 178, 189, .8); */
+   background-color:rgb(89, 66, 138, .8);
+   padding-top: 0px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 30px;
+   color: whitesmoke;
+ }
+
+/* Style links */
+a:link {
+   color:rgb(150, 188, 238);
+   /* If you want to remove underline on link, uncomment following
+   text-decoration: none; */
+}
+a:visited {
+   color: rgb(131, 113, 158);
+
+}
+a:hover {
+   color: rgb(203, 229, 236);
+}
+
+h2 {
+   padding-top: 40px;
+}
+.container img {
+   size: cover;
+   width: 100%;
+}
+
+/* Container holding the image and the text */
+.container {
+   color: rgb(43, 42, 42);
+   background-color: rgb(37, 36, 41);
+}
+
+
+/* Top left text */
+.top-left {
+   position: absolute;
+   top: 100px;
+   left: 100px;
+}
+
+button {
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+body {
+   padding-top: 2.4em;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(167, 178, 189);
+   color: rgb(43, 42, 42);
+   text-align: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14;
+   min-height: 100vh;
+   width: 100%;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   overflow-x: hidden;
+   overflow-x: hidden;
+}
+
+
+.margin {
+   padding-top: 10px;
+   padding-bottom: 25px;
+   padding-left: 3%;
+}
+
+
+#projects {
+   /* default background color */
+   background-color: rgb(37, 36, 41);
+   /* The following refers to font color */
+   color: whitesmoke;
+}
+
+
+#models {
+   background-color: whitesmoke;
+   color: rgb(44, 62, 88);
+   /* The following pads out the bottom of the block */
+   padding-bottom: 400px;
+}
+
+
+#research {
+   background-color: rgb(37, 36, 41);
+   color: rgb(217, 226, 239);
+   padding-bottom: 400px;
+}
+
+#other {
+   background-color: whitesmoke;
+   color: black;
+   padding-bottom: 400px;
+}
+
+
+
+
+/* Project images */
+/* Three image containers */
+.column {
+   float: left;
+   width: 33.33%;
+}
+
+.column-one-of-two {
+   float: left;
+   width: 36.5%;
+}
+
+.column-two-of-two {
+   float: left;
+   width: 36.5%;
+   padding-left: 40px;
+}
+
+.row {
+   padding-top: 25px;
+   padding-bottom: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+#background {
+   text-align: center;
+   width: 100%;
+   height: 400px;
+}
+
+#background>div {
+   text-align: center;
+   width: 30%;
+   height: 400px;
+   background-image: url('pictures/escudero_2017-antartic-research-group_-_7.jpg');
+   background-size: cover;
+   border: 1px solid red;
+}
+
+/* Make a grid for the images */
+#grid-container {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+   margin-right: 0px;
+   margin-left: 0px;
+   width: 100%;
+}
+
+#grid-container>div {
+   text-align: center;
+}
+
+
+.flexContainer {
+   display: flex;
+   /*max-height: 200px;
+   width: 10%;*/
+}
+
+.flexContainer img {
+   flex: 1;
+   width: 30%;
+   height: auto;
+}
+
+/* Make a grid for the puzzles */
+#grid-container {
+   display: flex;
+   justify-content: left;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   width: 30%;
+}
+
+
+/* Styles for the grid for the puzzles (div elements) in the grid 
+ * and make it a flex container
+ */
+#grid-container>div {
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 0px;
+}
+
+img {
+   border-style: none;
+   /* Stop iphone browser showing rounded edges */
+   /*border-radius: 0px 0px 0px 0px;*/
+}
+
+
+.footer {
+   height: 60px;
+   width: 100%;
+   background-color: rgb(167, 178, 189);
+   color: rgb(83, 84, 85);
+   /*position: fixed;*/
+   bottom: 0px;
+   padding-left: 25px;
+}
