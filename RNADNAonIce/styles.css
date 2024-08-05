@@ -6,6 +6,10 @@ body {
     font-size: 14;
  }
 
+p {
+    margin-right:30em
+}
+
  .entry{
     padding-top: 10px;
     padding-bottom:40px;
